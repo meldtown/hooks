@@ -1,3 +1,10 @@
 import React from "react";
 
-export const HomePage = () => <h1>Home page</h1>;
+import TodoList from "../containers/TodoList";
+
+export const HomePage = () => (
+  <>
+    <h1>Todo list app</h1>
+    <TodoList/>
+  </>
+);

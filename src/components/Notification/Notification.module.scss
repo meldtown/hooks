@@ -1,0 +1,9 @@
+@import '../../assets/styles/variables/colors';
+
+.message {
+  display: flex;
+  min-width: 350px;
+  justify-content: space-between;
+
+  color: $white;
+}

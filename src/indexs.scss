@@ -1,3 +1,39 @@
+@import "assets/styles/variables/variables";
+
 body {
   font-family: Monaco, sans-serif;
+};
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@each $val in $indents {
+  .mt-#{$val} {
+    margin-top: #{$val}px;
+  }
+
+  .mb-#{$val} {
+    margin-bottom: #{$val}px;
+  }
+
+  .ml-#{$val} {
+    margin-left: #{$val}px;
+  }
+
+  .mr-#{$val} {
+    margin-right: #{$val}px;
+  }
 }

@@ -12,7 +12,6 @@ function App() {
   return <Provider store={store}>
     <Router>
       <div className="App">
-        <h1>Our amazing app</h1>
         <Switch>
           <Route exact path="/">
             <HomePage/>

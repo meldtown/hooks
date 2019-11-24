@@ -1,10 +1,10 @@
 import React from "react";
 
-import TodoList from "../containers/TodoList";
+import {TodoList} from "../containers";
 
 export const HomePage = () => (
   <>
-    <h1>Todo list app</h1>
+    <h1 className="text-center">Todo list app</h1>
     <TodoList/>
   </>
 );
